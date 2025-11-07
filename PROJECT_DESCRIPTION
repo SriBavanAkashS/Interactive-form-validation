@@ -1,0 +1,9 @@
+The Interactive Form Validation project is a web-based application designed to demonstrate dynamic and user-friendly form validation techniques using modern front-end and back-end technologies. The project allows users to create an account by filling out a registration form, where each field is validated interactively to ensure accuracy and completeness before submission.
+
+The front-end is built using HTML, CSS, JavaScript, and Bootstrap, focusing on responsive design and an intuitive user interface. The form includes validations for name length, department selection, username uniqueness, password strength, email format, and contact number constraints. Interactive feedback, such as color changes and alert modals, guides users through the input process, enhancing usability and reducing input errors.
+
+On the back-end, the project uses Node.js and Express.js to handle API requests. User details are stored in a JSON file, simulating a simple database. The API provides endpoints for username validation, form submission, and retrieving stored user data. The system ensures that duplicate usernames are prevented and validates all input before saving.
+
+The application is hosted on Netlify for the front-end and Render for the back-end, ensuring full-stack integration and accessibility. Version control and collaboration are managed through GitHub, allowing efficient teamwork and project updates.
+
+Overall, this project showcases the implementation of interactive validation mechanisms, client-server communication through REST APIs, and full-stack web deployment—demonstrating key concepts of modern web development.
